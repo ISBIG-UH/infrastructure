@@ -30,3 +30,41 @@ Este repositorio contiene el listado de software y las plantillas de Docker util
   - Ejecutar `docker compose up`
   - Buscar en el output de la consola la url del servidor de Jupyter y pegarla en el navegador 
 
+
+## Jupyter Lab sin Docker
+
+En caso de quere utilizar la configuración de Jupyter sin Docker
+
+1. Instalar MySQL en su SO
+
+   - [Windows](https://dev.mysql.com/doc/refman/8.4/en/windows-installation.html)
+   - [MacOS](https://dev.mysql.com/doc/refman/8.4/en/macos-installation.html)
+   - [Linux](https://dev.mysql.com/doc/refman/8.4/en/linux-installation.html)
+
+2. Instalar Python
+
+3. Instalar VS Code y la [extensión de Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+
+4. Instalar el cliente de MySQL en python:
+
+   - Windows:
+
+     ```
+     pip install ipython-sql sqlalchemy==1.4.46 mysqlclient
+     ```
+
+   - MacOS:
+
+     ```
+     brew install pkg-config
+     pip install ipython-sql sqlalchemy==1.4.46 mysqlclient
+     ```
+
+   - Linux:
+
+     ```
+     sudo apt-get install python3-dev default-libmysqlclient-dev build-essential pkg-config
+     pip install ipython-sql sqlalchemy==1.4.46 mysqlclient
+     ```
+
+     
