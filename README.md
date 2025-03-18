@@ -28,7 +28,7 @@ Este repositorio contiene el listado de software y las plantillas de Docker util
 - Jupyter/MySQL (Clases Prácticas)
   - Ir a `docker/lab-notebooks` 
   - Ejecutar `docker compose up`
-  - Buscar en el output de la consola la url del servidor de Jupyter y pegarla en el navegador 
+  - Buscar en el output de la consola la url del servidor de Jupyter y pegarla en el navegador (localhost:8888)
 
 
 ## Jupyter Lab sin Docker
